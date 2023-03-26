@@ -17,7 +17,7 @@
   /*
    * Background image variables
    */
-  --background-image: url("https://cdn.discordapp.com/attachments/731452559662776413/1089627980915019856/transparent.png"); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --background-image: url("https://cdn.discordapp.net/attachments/731452559662776413/1089631581716615240/Sans_titre.png"); /* Main background image | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --background-image-blur: 5px; /* Blur intensity of --background-image | Must end in px | DEFAULT: 5px */
   --background-image-size: cover; /* Size of the background image | DEFAUT: cover | OPTIONS: cover, contain */
   --background-image-position: center; /* Position of background image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
@@ -25,14 +25,14 @@
    * User Popout variables
    * This will only affect the user profile (when clicking on a member in the members list)
    */
-  --popout-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --popout-image: url("https://cdn.discordapp.net/attachments/731452559662776413/1089630511393161287/transparent.png"); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --popout-image-blur: 5px; /* Blur intensity of --popout-image | Must end in px | DEFAULT: 5px */
   --popout-image-size: cover; /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
   --popout-image-position: center; /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
   /*
    * Modal & Popout variables
    */
-  --overlay-image: var(--background-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
+  --overlay-image: var(--popout-image); /* Background image for popouts and modals | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
   --overlay-image-blur: var(--background-image-blur); /* Blur intensity of --overlay-image | Must end in px | DEFAULT: 5px */
   --overlay-image-size: var(--background-image-size); /* Size of the popout/modal image | DEFAUT: cover | OPTIONS: cover, contain */
   --overlay-image-position: var(--background-image-position); /* Position of popout/modal image | DEAFULT: center | OPTIONS: top, right, bottom, left, center */
